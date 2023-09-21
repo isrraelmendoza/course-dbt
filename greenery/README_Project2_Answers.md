@@ -9,7 +9,7 @@
 - **Q3**: Explain the product mart models you added. Why did you organize the models in the way you did?
 - **Q3 Answer**: Created a mart with a dimensions and fact table. The mart was modeled in what I figured was a simple clear way for other users to understand the correlation between both.
 - **Part 2: Tests**
-- **Part 2: Q1** What assumptions are you making about each model? (i.e. why are you adding each test?)
+- **Part 2: Q1** What assumptions are you making about each model?
 - **Part 2: A1**: In the dim table I added a test for nulls and uniqueness.
   **Part 2: Q2** Did you find any “bad” data as you added and ran tests on your models? How did you go about either cleaning the data in the dbt model or adjusting your assumptions/tests?
 - **Part 2: A2**: I did not find any bad data, I reviewed when the data was last updated and ensured that there was no change over time...I could be wrong here if there was bad data to be seen.
