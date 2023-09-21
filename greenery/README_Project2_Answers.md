@@ -1,4 +1,4 @@
-# Week 
+# Week_2
 
 ## Questions
 - **Q1**: What is our user repeat rate? Repeat Rate = Users who purchased 2 or more times / users who purchased.
