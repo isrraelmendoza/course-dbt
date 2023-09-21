@@ -1,0 +1,16 @@
+version: 2
+
+models:
+
+- name: dim_product
+  description: dimension product table
+  columns: 
+    - name: PRODUCT_ID
+      description: PRODUCT_ID
+      tests:
+        - unique
+        - not_null
+      
+
+- name: dim_prod_convert
+  description: conversion by product
