@@ -11,7 +11,7 @@
 - **Part 2: Tests**
 - **Part 2: Q1** What assumptions are you making about each model?
 - **Part 2: A1**: In the dim table I added a test for nulls and uniqueness.
-  **Part 2: Q2** Did you find any “bad” data as you added and ran tests on your models? How did you go about either cleaning the data in the dbt model or adjusting your assumptions/tests?
+- **Part 2: Q2** Did you find any “bad” data as you added and ran tests on your models? How did you go about either cleaning the data in the dbt model or adjusting your assumptions/tests?
 - **Part 2: A2**: I did not find any bad data, I reviewed when the data was last updated and ensured that there was no change over time...I could be wrong here if there was bad data to be seen.
 - **Part 3**: Run the product snapshot model using dbt snapshot and query it in snowflake to see how the data has changed since last week. Which products had their inventory change from week 1 to week 2? 
 - **Part 3 Answer**: I ran the summary statistics from week 1 and see the same values for amount of customers, not sure if I am understanding this question correctly for seeing inventory changes.
